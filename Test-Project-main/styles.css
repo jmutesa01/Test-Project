@@ -1,0 +1,56 @@
+body{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width:100%;
+    min-height: 30px;
+    background-color: coral;
+}
+
+nav a{
+    color:black;
+    font-weight: bold;
+    margin-right:10px;
+    text-decoration: none;
+}
+
+.group{
+    margin-right:auto;
+    margin-left:auto;
+    width:80%;
+}
+
+p{
+   
+}
+
+img{
+    width:90%;
+    max-width:250px;
+}
+
+/*<weight>: Use a value from 100 to 700
+<uniquifier>: Use a unique and descriptive class name */
+
+h1{
+  font-family: "Josefin Sans",futura, sans-serif;
+}
+
+ol li+ol li{
+    font-family: "Chokokutai", system-ui;
+}
+
+form{
+
+}
+
+input{
+    display: block;
+}
+
+textarea{
+    display: block;
+}
