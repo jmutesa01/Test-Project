@@ -17,7 +17,7 @@
         <!-- Group -->
         <div class="group">
             <a href="index.html">
-                <img src="img/cropped-logo.png" alt="Logo">
+                <img class="logo" src="img/cropped-logo.png" alt="Logo">
             </a>
         </div><!-- END Group-->
 
@@ -44,9 +44,33 @@
                     </ul>
                 <li>1tbs butter</li>
                 <li>1tbs cream</li>
-            </ul>    
+            </ul>   
             
+            <br>
+            
+            <img src="img/img.jpg" alt="aisle">
+
+            <form action="/submit-form" method="post">
+                <label>
+                    <p> First name:
+                        <input type="text" id="fname" name="first-name"required >
+                    </p>
+                </label>
+                <label>
+                    <p>Last name:
+                        <input type="text" id="lname" name="last-name" required >
+                    </p>
+                </label>
+
+                <label>
+                    <p> Comments: 
+                    <textarea id="subject" name="comments" rows="5" cols="30" placeholder="tell us more"></textarea> 
+                    </p>
+                </label>
+                <button>submit</button>
+            </form>
         </div> <!-- END Group-->
+        
 
 
 
