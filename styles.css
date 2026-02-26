@@ -2,19 +2,27 @@ body{
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    font-size: 16px;
+    
 }
 
 nav{
     width:100%;
-    min-height: 30px;
+    min-height: 50px;
+    text-align: center;
     background-color: coral;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 nav a{
+    display: inline-block;
     color:black;
     font-weight: bold;
     margin-right:10px;
     text-decoration: none;
+    padding: 1svb;
+    font-size: 1.4em;
 }
 
 .group{
@@ -24,7 +32,7 @@ nav a{
 }
 
 p{
-   
+   line-height: 1.5;
 }
 
 img{
@@ -47,14 +55,51 @@ ol li+ol li{
     font-family: "Chokokutai", system-ui;
 }
 
+/* FORM STYLES -----------------------*/
+
 form{
+    width: 100%;
+}
+
+label{
 
 }
 
 input{
-    display: block;
+   
+    height: 40px;
+    margin-bottom: 20px;
 }
 
 textarea{
-    display: block;
+    height: 250px;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
+
+input, textarea{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1.1em;
+}
+/* END FORM STYLES -----------------------*/
+footer{
+    background-color: gray;
+}
+
+/* END MOBILE STYLES -------------------- */
+@media only screen and (min-width: 700px) {
+
+    form, .column{
+     float:left;
+     width:48%;
+     padding:1%; 
+    }
+
+
+
+
+    
+
+} /* Dont delete */
